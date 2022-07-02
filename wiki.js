@@ -35,9 +35,6 @@ searchBtn.addEventListener("click", (e) => {
               let itemTitle = item.title;
               let itemSnippet = item.snippet;
               let itemUrl = encodeURI(`https://en.wikipedia.org/wiki/${item.title}`);
-              console.log(itemTitle);
-              console.log(itemSnippet);
-              console.log(itemUrl);
   
               output.insertAdjacentHTML('beforeend',
                  `<div class="article">
